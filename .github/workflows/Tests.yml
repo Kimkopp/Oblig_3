@@ -11,7 +11,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-          settings-path: ${{ github.workspace }
       - name: cache maven packages
         uses: actions/cache@v2
         with:
