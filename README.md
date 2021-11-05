@@ -2,9 +2,7 @@
 
 Jeg startet med å dele prosjektet til guthub via intellij og sjekket at det var delt og funket som det skulle. Etter lagde jeg workflow fra template på github og oppdaterte prosjektet. 
 
-Under "actions" ser du alle testene som ble pushet, både de som feilet/ikke fungerende og når jeg fikk det til. 
-
-Jeg lagde et til workflow kalt "tests.yml" som jeg skulle sette opp for å kjøre testene og publisere resultatet. Test#20 "test" og test#21 "create readme.md" er de fungerende og endelige testene med workflow fila.
+Jeg lagde et til workflow kalt "tests.yml" som jeg skulle sette opp for å kjøre testene og publisere resultatet. 
 
 Forklaring av Tests.yml:
 
@@ -17,3 +15,5 @@ Forklaring av Tests.yml:
 4. "Run tests" - Her skal testene kjøres, dette blir gjort med å bruke mvn kommandoen mvn -B test --file pom.xml
 
 5. "Publish Test Report" - Til slutt måtte testene bli publisert etter workflowet er kjørt så vi kan se resultatet under "actions" i github.
+
+Under "actions" ser du alle testene som ble pushet, både de som feilet/ikke fungerende og når jeg fikk det til. Test#20 "test" og test#21 "create readme.md" er de fungerende og endelige testene med workflow fila.
