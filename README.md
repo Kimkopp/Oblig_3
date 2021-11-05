@@ -16,4 +16,4 @@ Forklaring av Tests.yml:
 
 5. "Publish Test Report" - Til slutt måtte testene bli publisert etter workflowet er kjørt så vi kan se resultatet under "actions" i github.
 
-Under "actions" ser du alle testene som ble pushet, både de som feilet/ikke fungerende og når jeg fikk det til. Test#20 "test" og test#21 "create readme.md" er de fungerende og endelige testene med workflow fila.
+Under "actions" ser du alle testene som ble pushet, både de som feilet/ikke fungerende og når jeg fikk det til. Test#20 "test" og test#21 "create readme.md" er de fungerende og endelige testene med workflow fila. Samt test#23-25 "update readme.md" som kom fra oppdateringene jeg gjorde i readme fila.
