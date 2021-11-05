@@ -5,4 +5,4 @@ public class LeapYear {
             return false;
         } else return year % 4 == 0;
     }
-}//
+}
