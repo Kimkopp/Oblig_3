@@ -1,8 +1,10 @@
 # Oblig_3
 
-Jeg startet med å dele prosjektet til guthub via intellij og sjekket at det var delt og funket som det skulle. Etter lagde jeg workflow fra template på github og oppdaterte prosjektet.
+Jeg startet med å dele prosjektet til guthub via intellij og sjekket at det var delt og funket som det skulle. Etter lagde jeg workflow fra template på github og oppdaterte prosjektet. 
 
-Jeg lagde et til workflow kalt "tests.yml" som jeg skulle sette opp for å kjøre testene og publisere resultatet.
+Under "actions" ser du alle testene som ble pushet, både de som feilet/ikke fungerende og når jeg fikk det til. 
+
+Jeg lagde et til workflow kalt "tests.yml" som jeg skulle sette opp for å kjøre testene og publisere resultatet. Test#20 "test" og test#21 "create readme.md" er de fungerende og endelige testene med workflow fila.
 
 Forklaring av Tests.yml:
 
